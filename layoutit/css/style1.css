@@ -1,0 +1,95 @@
+/* Mengatur background dan font body */
+
+body {
+    background-color: #777;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+
+.nav {
+    padding: 10px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.data{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding: 150px;
+}
+
+
+.row1{
+    background-image: url('../img/9959.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.page-header {
+    
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: #333;
+}
+
+.page-header small {
+    color: #777;
+}
+
+
+.row3{
+    padding-top: 10px;
+}
+
+.data img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: 20px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron img{
+    width: 400px;
+    padding-bottom: 5px;
+}
+
+.row4 {
+    border: 3px solid floralwhite;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+}
